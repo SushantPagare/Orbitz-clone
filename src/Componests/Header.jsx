@@ -1,6 +1,8 @@
-import { Button} from "@chakra-ui/react"
+import { Button, Modal} from "@chakra-ui/react"
 import logo from "../img/orbitz_logo.png";
-import styles from "./header.module.css" 
+import styles from "./header.module.css";
+
+
 export const Header=()=>{
     return(
         <div className="nav1" style={{display: "flex" , justifyContent:"space-between",background:"#00253c",height:"4rem"}}>
@@ -19,6 +21,8 @@ export const Header=()=>{
             <Button >Trips</Button>
             <Button>Sign in</Button>
         </div>
+
+  
     </div>
     )
 }
