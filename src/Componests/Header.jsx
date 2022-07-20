@@ -9,7 +9,7 @@ export const Header=()=>{
                 <img style={{ cursor: "pointer",marginTop: "10px", marginLeft: "20px", flexGrow: 1, marginTop: "15px" }} src={logo} alt="Orbitz"  />
             </div>
             <div className={styles.nav4}>
-                 <Button >Travel More ^</Button>
+                 <Button >Travel More</Button>
             </div>
         </div>
         <div className={styles.nav5btn} >
@@ -22,3 +22,6 @@ export const Header=()=>{
     </div>
     )
 }
+
+
+//Navbar is stil some work pending
