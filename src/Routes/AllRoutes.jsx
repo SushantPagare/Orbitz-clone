@@ -1,5 +1,6 @@
 import React from "react";
-import { Route, Routes, Switch } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
+import { Footer } from "../Componests/Footer";
 import { Header } from "../Componests/Header";
 import { Search } from "../Componests/Search";
 import { Signin } from "../Componests/Signin";
@@ -7,13 +8,10 @@ import { Signup } from "../Componests/Signup";
 
 
 
-export const Routes = () => {
+export const AllRoutes = () => {
     return (
-        <div>
-            <Switch>
-                <Route exact path="/">
-                    <SearchBar/>
-                </Route>
+        <Routes>
+        
                 <Route exact path="/Header">
                     <Header  />
                 </Route>
@@ -26,8 +24,11 @@ export const Routes = () => {
                 <Route exact path="/signup">
                   <Signup/>
                 </Route>
+                <Route exact path="/footer">
+                  <Footer />
+                </Route>
                
-            </Switch>
-        </div>
+           
+        </Routes>
     )
 }
