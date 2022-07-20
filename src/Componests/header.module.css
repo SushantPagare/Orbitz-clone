@@ -1,0 +1,19 @@
+.nav5btn{
+    display:flex;
+     gap: 1rem;
+     text-align: center;
+     padding-top: 0.5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+}
+
+.nav5btn>Button{
+    background-color: #00253c;
+    color: white;
+    
+}
+
+.nav4>Button{
+    background-color: #00253c;
+    color: white;
+}
