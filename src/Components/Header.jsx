@@ -1,4 +1,4 @@
-import { Button, Modal} from "@chakra-ui/react"
+import { Button } from "@chakra-ui/react"
 import logo from "../img/orbitz_logo.png";
 import styles from "./header.module.css";
 
