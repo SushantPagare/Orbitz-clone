@@ -26,6 +26,7 @@
     justify-content: flex-start;
     margin-bottom:20px ;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .help-section>div>h2{
     display: flex;
@@ -45,11 +46,13 @@
     background-color: #e8e8e8;
     border: 1px solid transparent;
     
+    
 }
 .travel-box{
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
+    
     
 }
 .travel-heading{
@@ -58,11 +61,13 @@
     width: 100%;
     padding: 5px;
     margin-left: 5px;
+    
 }
 .travel-bar{
     width:100%;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .travel-bar1{
@@ -73,7 +78,7 @@
     border: 1px solid #e8e8e8;
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
     background-size:cover;
-    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -86,7 +91,7 @@
     border: 1px solid #e8e8e8;
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
     background-size: cover;
-    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: flex-start;
     align-items: center;

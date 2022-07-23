@@ -14,6 +14,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .travels-box>div{
@@ -23,17 +24,21 @@
     margin: auto;
     margin-top: 60px;
     margin-bottom: 60px;
+    cursor: pointer;
 }
 .featured{
     background-color: #e8e8e8;
+
 }
 .featured-box{
     width: 90%;
     margin: auto;
+    cursor: pointer;
 }
 .featured-heading{
     width: 100%;
 display: flex;
+cursor: pointer;
 justify-content: start;
 
 }
@@ -42,29 +47,34 @@ justify-content: start;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    cursor: pointer;
 
 }
 .featured-img-1{
     width:300px;
     height: 200px;
+    cursor: pointer;
     background-size: contain;
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
 }
 .featured-img-2{
     width:300px;
     height: 200px;
+    cursor: pointer;
     background-size: contain;
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
 }
 .featured-img-3{
     width:300px;
     height: 200px;
+    cursor: pointer;
     background-size: contain;
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
 }
 .featured-img-4{
     width:300px;
     height: 200px;
+    cursor: pointer;
     background-size: contain;
     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh");
 }
@@ -73,12 +83,15 @@ justify-content: start;
     display: flex;
     flex-direction: column;
     color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     justify-content:end;
     align-items:flex-start;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .featured-img>div>h2{
     margin-left: 10px;
+    cursor: pointer;
 }
 .featured-img>div>p{
     margin-left: 10px;
@@ -94,11 +107,13 @@ justify-content: start;
     border: 1px solid transparent;
     padding: 30px;
     display: flex;
+    cursor: pointer;
     flex-wrap: wrap;
 }
 .mgm-img{
     width: 60%;
     height: 250px;
+    cursor: pointer;
     background-image: url("https://images.trvl-media.com/hotels/1000000/210000/203700/203613/41bd5b9c.jpg?impolicy=resizecrop&rw=1200&ra=fit");
     background-size: cover;
 }
@@ -118,34 +133,7 @@ justify-content: start;
 }
 
 
-.ad{
-    width: 100%;
-    border: 1px solid transparent;
-    background-color: #e8e8e8;
-}
-.ad-container{
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    border: 1px solid transparent;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap:10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-.ad-img{
-    width:70%;
-    height: 270px;
-    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/09/25/15ORB_GeoTargeted_Chicago_mrq_1320x742_20200525.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
-    background-size:cover;
-    background-repeat: no-repeat;
-}
-.ad-txt{
-    width:27%;
-    height: 270px;
-}
+/*  */
 
 @media screen and (max-width: 800px){
     .travels-box>div{

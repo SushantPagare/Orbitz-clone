@@ -35,39 +35,51 @@ export const Product = () => {
         <h4>Star rating</h4>
         <div className="star">
           <div
+          
             onClick={() => {
               setFiler(1);
             }}
           >
-            1<TiStar />
+            <TiStar />
           </div>
           <div
             onClick={() => {
               setFiler(2);
             }}
           >
-            2<TiStar />
+            <TiStar />
+            <TiStar />
           </div>
           <div
             onClick={() => {
               setFiler(3);
             }}
           >
-            3<TiStar />
+            <TiStar />
+            <TiStar />
+            <TiStar />
           </div>
           <div
             onClick={() => {
               setFiler(4);
             }}
           >
-            4<TiStar />
+            
+            <TiStar />
+            <TiStar />
+            <TiStar />
+            <TiStar />
           </div>
           <div
             onClick={() => {
               setFiler(5);
             }}
           >
-            5<TiStar />
+            <TiStar />
+            <TiStar />
+            <TiStar />
+            <TiStar />
+            <TiStar />
           </div>
         </div>
         <div className="popular">

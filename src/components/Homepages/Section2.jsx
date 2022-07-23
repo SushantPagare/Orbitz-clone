@@ -50,12 +50,6 @@ export const Section2 = ()=>{
 
         </div>
 
-        <div className="ad" >
-            <div className="ad-container" >
-                <div className="ad-img" ></div>
-                <div className="ad-txt" ><img src="https://tpc.googlesyndication.com/simgad/6378264940813121541?" height="100%" width="100%" ></img></div>
-            </div>
-        </div>
         </div>
     )
 }   
