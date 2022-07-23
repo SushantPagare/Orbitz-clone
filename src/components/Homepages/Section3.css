@@ -1,0 +1,394 @@
+.help{
+    width:100%;
+    background-color: #e8e8e8;
+   }
+.help-box{
+    width:88%;
+    border: 1px solid transparent;
+    margin: auto;
+}
+.help-heading{
+    width: 100%;
+    /* padding:5px; */
+    display: flex;
+    justify-content: start;
+}
+.help-section{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.help-section>div{
+    
+    width: 30%;
+    border: 1px solid gray;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom:20px ;
+    background-color: white;
+}
+.help-section>div>h2{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.help-section>div>p{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.traveling-tips{
+    width: 100%;
+    background-color: #e8e8e8;
+    border: 1px solid transparent;
+    
+}
+.travel-box{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+.travel-heading{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5px;
+    margin-left: 5px;
+}
+.travel-bar{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.travel-bar1{
+    width: 48%;
+    height: 320px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #e8e8e8;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
+    background-size:cover;
+    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.travel-bar2{
+    width:48%;
+    color: white;
+    font-size: 20px;
+    height: 320px;
+    border: 1px solid #e8e8e8;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
+    background-size: cover;
+    box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.3);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+button{
+    background-color: white;
+    color: #007e8f;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+.travel-bar>div>div{
+    margin: 40px;
+}
+.ad1{
+    width: 100%;
+    background-color: #e8e8e8;
+    
+}
+.ad1>div{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+
+.qr-box{
+  width: 100%;
+  background-color: #e8e8e8;
+}
+
+.qr {
+  display: flex;
+  background-color: white;
+  width:95%;
+  margin: auto;
+  gap: 20px;
+  border: 1px solid rgb(202, 200, 200);
+}
+
+.qr > div > img {
+  width: 400px;
+  height: 100%;
+}
+#qrimg {
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+#qrimg + p {
+  margin-left: 20px;
+  font-size: 11px;
+  margin-top: -8px;
+  font-weight: 700;
+}
+.qr > div > h2 {
+  font-size: 18px;
+}
+.qr > div > ul > li {
+  margin-left: -15px;
+}
+.qr > div > h3 {
+  font-size: 15px;
+}
+.flex {
+  display: flex;
+}
+.flex > div > input {
+  font-size: 20px;
+  height: 40px;
+  width: 180px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.flex > div > button {
+  font-size: 20px;
+  height: 40px;
+  width: 150px;
+  background-color: #c83259;
+  color: white;
+  border: none;
+}
+.selectdiv {
+  border: 1px solid #777;
+  padding: 0 5px;
+  width: 120px;
+  background-color: #fff;
+  position: relative;
+}
+.label {
+  font-size: 14px;
+  color: #777;
+  padding: 0 4px;
+  position: absolute;
+  top: 4px;
+}
+.select {
+  background-color: #fff;
+  border: 0px;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.destination-box{
+  width: 100%;
+  background-color: #e8e8e8;
+  
+}
+.destination-head{
+  margin-left: 5%;
+}
+
+.destinations {
+  
+
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.destinations>div>h3{
+  font-size: 15px;
+}
+.destinations > div {
+  background-color: white;
+  
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.destinations > div > span {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px){
+  .qr{
+    display: none;
+  }
+  .ad1>div{
+    width: 70%;
+    height: 70px;
+    margin: auto;
+    padding: 20px;
+}
+
+}
+
+@media screen and (max-width: 415px){
+  .help{
+    width:100%;
+    background-color: #e8e8e8;
+   }
+.help-box{
+    width:88%;
+    border: 1px solid transparent;
+    margin: auto;
+}
+.help-heading{
+    width: 100%;
+    /* padding:5px; */
+    display: flex;
+    justify-content: start;
+}
+.help-section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.help-section>div{
+    
+    width: 100%;
+    border: 1px solid gray;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom:10px ;
+    background-color: white;
+}
+.help-section>div>h2{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-size: 25px;
+}
+.help-section>div>p{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.traveling-tips{
+  width: 100%;
+  background-color: #e8e8e8;
+  border: 1px solid transparent;
+  
+}
+.travel-box{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  
+}
+.travel-heading{
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  padding: 5px;
+  margin-left: 5px;
+}
+.travel-bar{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.travel-bar1{
+  width: 100%;
+  height: 250px;
+  color: white;
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg");
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.travel-bar2{
+  width:100%;
+  color: white;
+  font-size: 15px;
+  height: 250px;
+  border: 1px solid #e8e8e8;
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
+  background-size: cover;
+  box-shadow:inset 0 0 0 2000px rgba(5, 5, 5, 0.3);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+button{
+  background-color: white;
+  color: #007e8f;
+  border: 1px solid white;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.travel-bar>div>div{
+  margin: 40px;
+}
+.ad1{
+display: none;
+  
+}
+
+
+.destination-box{
+  width: 100%;
+  background-color: #e8e8e8;
+  
+}
+.destination-head{
+  margin-left: 5%;
+}
+
+.destinations {
+  
+
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  
+}
+.destinations>div>h3{
+  font-size: 12px;
+}
+.destinations > div {
+  background-color: white;
+  
+  padding: 0px 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.destinations > div > span {
+  margin-top: 10px;
+}
+
+}

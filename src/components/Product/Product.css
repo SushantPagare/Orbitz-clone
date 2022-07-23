@@ -1,0 +1,109 @@
+.product {
+  display: flex;
+  gap: 15px;
+  width: 75%;
+  margin-left: 100px;
+  padding-top: 30px;
+}
+.filters {
+  width: 25%;
+  text-align: left;
+}
+.map {
+  background-color: white;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#a {
+  color: #007e8f;
+  text-decoration: none;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 600;
+}
+#a:hover {
+  text-decoration: underline;
+}
+.mapimg {
+  width: 100%;
+  height: 150px;
+  margin-bottom: 5px;
+}
+.data {
+  width: 75%;
+}
+.sortdiv {
+  display: flex;
+  justify-content: space-between;
+}
+.sortdiv-1 {
+  text-align: left;
+}
+#selectdiv {
+  border: 1px solid #777;
+  padding: 0 5px;
+  width: 300px;
+  background-color: #fff;
+  position: relative;
+}
+.label {
+  font-size: 14px;
+  color: #777;
+  padding: 0 4px;
+  position: absolute;
+  top: 4px;
+}
+.select {
+  background-color: #fff;
+  border: 0px;
+  height: 40px;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+}
+.icon {
+  position: absolute;
+  padding: 10px;
+  min-width: 40px;
+}
+.input-icon {
+  width: 85%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.input-icon > input {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+}
+.search-h2 {
+  font-size: 22px;
+}
+.popular {
+  font-size: 18px;
+}
+.popular > h4 {
+  margin-bottom: 10px;
+}
+.popular > div {
+  margin-bottom: 15px;
+}
+.popular > div > input {
+  width: 25px;
+  height: 18px;
+}
+.star {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.star > div {
+  border: 1px solid rgb(179, 179, 179);
+  padding: 12px;
+  padding-left: 18px;
+  border-radius: 12px;
+  background-color: white;
+}

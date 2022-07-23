@@ -1,0 +1,274 @@
+.flights {
+  width: 88%;
+  margin: auto;
+  text-align: left;
+}
+.whatsnew-img {
+  height: 250px;
+  overflow: hidden;
+}
+.whatsnew-img > img {
+  margin-top: -120px;
+}
+.whatsnewdiv-1 > h2,
+.whatsnewdiv-1 > p {
+  margin-left: 20px;
+  /* margin-bottom: -10px; */
+}
+.whatsnewdiv-1 {
+  border: 1px solid rgb(202, 200, 200);
+  width: 850px;
+  height: 370px;
+  background-color: white;
+}
+.whatsnewdiv-2 {
+  width: 450px;
+}
+.whatsnewdiv-2 > div {
+  border: 1px solid rgb(202, 200, 200);
+  display: flex;
+  gap: 15px;
+  background-color: white;
+}
+.whatsnewdiv-2 > div:nth-child(2) {
+  margin-top: 30px;
+}
+.whatsnewdiv-2 > div > img {
+  width: 120px;
+  height: 165px;
+}
+.whatsnewdiv {
+  display: flex;
+  gap: 25px;
+}
+.travel {
+  display: flex;
+  gap: 15px;
+}
+.travel > div {
+  background-color: white;
+}
+.travel > div > p {
+  margin-left: 10px;
+}
+.travel1-1 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/05/06/airportcode.jpeg?impolicy=fcrop&w=900&h=386&q=mediumHigh");
+  height: 55px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.travel2-1 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/05/06/glamping2.jpeg?impolicy=fcrop&w=900&h=386&q=mediumHigh");
+  height: 55px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.travel3-1 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/07/20/roadtripapp.jpeg?impolicy=fcrop&w=900&h=386&q=mediumHigh");
+  height: 55px;
+  width: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.travel1-1,
+.travel2-1,
+.travel3-1 {
+  padding: 17px;
+  padding-top: 120px;
+}
+.travel1-1 > h3,
+.travel2-1 > h3,
+.travel3-1 > h3 {
+  color: white;
+}
+.featured {
+  display: flex;
+  gap: 15px;
+}
+.featured-1 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/09/28/desktop.jpg");
+  height: 250px;
+  width: 970px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.featured-1 > h2 {
+  margin-top: 150px;
+}
+.featured-1 > p,
+.featured-1 > h2 {
+  margin-left: 30px;
+  color: #465280;
+}
+.featured-2 {
+  background-image: url("https://tpc.googlesyndication.com/simgad/14796921321033150880?");
+  height: 250px;
+  width: 330px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vacation {
+  display: flex;
+  gap: 15px;
+}
+.vacation-1 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/07/31/ORB_Affinity_PetFriendly_imgB_444x444_20200731.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
+  height: 150px;
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vacation-2 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/07/31/ORB_Affinity_Luxury_imgB_444x444_20200731.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
+  height: 150px;
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vacation-3 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/07/31/ORB_Affinity_AllInclusive_imgB_444x444_20200731.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
+  height: 150px;
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vacation-4 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/07/31/ORB_Affinity_LastMinute_imgB_444x444_20200731.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
+  height: 150px;
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vacation-5 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/07/31/ORB_Affinity_Beach_imgB_444x444_20200731.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
+  height: 150px;
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vacation-6 {
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/07/31/ORB_Affinity_Romantic_imgB_444x444_20200731.jpg?impolicy=fcrop&w=300&h=300&q=mediumHigh");
+  height: 150px;
+  width: 210px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.vacation-1 > h3,
+.vacation-2 > h3,
+.vacation-3 > h3,
+.vacation-4 > h3,
+.vacation-5 > h3,
+.vacation-6 > h3 {
+  color: white;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+#book-bgimg {
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 70px;
+  background-image: url("https://tpc.googlesyndication.com/simgad/10056509806482740393?");
+  width: 1100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.qr {
+  display: flex;
+  background-color: white;
+  gap: 20px;
+  border: 1px solid rgb(202, 200, 200);
+}
+.qr > div > img {
+  width: 450px;
+  height: 100%;
+}
+#qrimg {
+  width: 180px;
+  height: 180px;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+#qrimg + p {
+  margin-left: 25px;
+  font-size: 15px;
+  margin-top: -8px;
+  font-weight: 700;
+}
+.qr > div > h2 {
+  font-size: 30px;
+}
+.qr > div > ul > li {
+  margin-left: -15px;
+}
+.qr > div > h3 {
+  font-size: 22px;
+}
+.flex {
+  display: flex;
+}
+.flex > div > input {
+  font-size: 20px;
+  height: 50px;
+  width: 180px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.flex > div > button {
+  font-size: 20px;
+  height: 55px;
+  width: 180px;
+  background-color: #c83259;
+  color: white;
+  border: none;
+}
+.selectdiv {
+  border: 1px solid #777;
+  padding: 0 5px;
+  width: 150px;
+  background-color: #fff;
+  position: relative;
+}
+.label {
+  font-size: 14px;
+  color: #777;
+  padding: 0 4px;
+  position: absolute;
+  top: 4px;
+}
+.select {
+  background-color: #fff;
+  border: 0px;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.destinations {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.destinations > div {
+  background-color: white;
+  padding: 0px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.destinations > div > span {
+  margin-top: 20px;
+}
