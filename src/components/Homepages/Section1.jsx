@@ -12,7 +12,7 @@ export const Section1 = () => {
           <div>Things to do</div>
           <div>Cruises</div>
         </div>
-        <hr></hr>
+          <hr></hr>
         <div className="input-container">
           <div className="input-box">
             <select style={{ fontSize: "22px" }}>
@@ -25,13 +25,13 @@ export const Section1 = () => {
             <input type="date" style={{ fontSize: "22px" }}></input>
             <input type="date" style={{ fontSize: "22px" }}></input>
 
-            <input
-              type="text"
-              style={{ fontSize: "22px" }}
-              placeholder="Travelers"
-            ></input>
+              <input
+                type="text"
+                style={{ fontSize: "22px" }}
+                placeholder="Travelers"
+              ></input>
+            </div>
           </div>
-        </div>
 
         <div className="input-checkbox">
           <div>
