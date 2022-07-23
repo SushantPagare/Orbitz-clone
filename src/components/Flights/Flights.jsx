@@ -476,9 +476,9 @@ export const Flights = () => {
             </div>
 
             <p>
-              By providing your number, you agree to receive a one-time
-              automated text message with a link to get the app. Standard text
-              message rates may apply.
+                By providing your number, you agree to receive a one-time
+                automated text message with a link to get the app. Standard text
+                message rates may apply.
             </p>
           </div>
           <div>
