@@ -1,0 +1,194 @@
+.search {
+  width: 100%;
+
+  background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+.search-main {
+  width: 90%;
+  border: solid 1px transparent;
+  background-color: white;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.search-nav {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-nav > div {
+  color: rgb(114, 114, 114);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.search-nav > div:hover {
+  text-decoration: underline;
+  color: #007e8f;
+}
+.input-box > select {
+  width: 450px;
+  height: 50px;
+}
+.input-box > input {
+  width: 220px;
+  height: 45px;
+}
+.input-box {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid transparent;
+}
+.input-checkbox {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+  border: 1px solid transparent;
+}
+.input > div {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.input-checkbox > div > input {
+  width: 18px;
+  height: 18px;
+  padding: 10px;
+}
+.search-button {
+  width: 100%;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.searchbtn {
+  width: 200px;
+  height: 50px;
+  background-color: #d42e5a;
+  color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .input-box > select {
+    width: 650px;
+    height: 50px;
+  }
+  .input-box > input {
+    width: 300px;
+    height: 45px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  .searchbtn {
+    width: 180px;
+    height: 40px;
+  }
+  .input-checkbox > div > input {
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .search {
+    width: 100%;
+
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  .search-main {
+    width: 90%;
+    border: solid 1px transparent;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  .search-nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .search-nav > div {
+    color: rgb(114, 114, 114);
+    font-size: 11px;
+    font-weight: 500;
+    padding: 5px;
+    cursor: pointer;
+  }
+
+  .search-nav > div:hover {
+    text-decoration: underline;
+    color: #007e8f;
+  }
+  .input-box > select {
+    width: 400px;
+    height: 40px;
+  }
+  .input-box > input {
+    width: 170px;
+    height: 40px;
+  }
+  .input-box {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 1px solid transparent;
+  }
+  .input-checkbox {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    border: 1px solid transparent;
+  }
+  .input > div {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  .input-checkbox > div > input {
+    width: 12px;
+    height: 12px;
+    padding: 12px;
+  }
+  .search-button {
+    width: 100%;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+  .searchbtn {
+    width: 180px;
+    height: 40px;
+  }
+}

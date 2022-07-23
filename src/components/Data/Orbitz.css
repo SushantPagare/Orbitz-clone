@@ -1,0 +1,62 @@
+.maindiv{
+    display:flex;
+    margin:2%;
+    width:120%;
+    justify-content: space-between;
+    text-align: left;
+    
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.imgdiv{
+    width:35%;
+}
+img{
+    contain: size;
+    width:100%;
+    height:100%
+}
+.descdiv{
+    text-align: start;
+    padding:4px;
+    width:52%;
+    letter-spacing: normal;
+    line-height: 20%
+}
+
+.grey{
+    color:rgb(152,140,133);
+    font-size:16px;
+    
+   
+}
+.green{
+    color:green
+}
+.res{
+    color:white;
+    background-color: #c83259;
+    LETTER-SPACING:normal;
+    text-align:center;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 2px;
+    border:none;
+    padding:8px;
+    cursor:pointer;
+    
+}
+.pricediv{
+    padding-top: 10%;
+    margin-right: 4px;
+}
+.prop{
+    font-size: smaller;
+    font-weight: 600;
+    color:rgb(87, 86, 86);
+    /* margin-top: 5%; */
+}
+.dis{
+    font-size: smaller;
+    line-height: 120%;
+
+}

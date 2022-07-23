@@ -1,0 +1,310 @@
+.container {
+  background-color: #ededed;
+}
+
+.first {
+  margin-left: 60px;
+}
+
+.free {
+  width: 92%;
+  height: 60px;
+  display: flex;
+  background-color: #ffffff;
+  margin-top: 5px;
+}
+
+.tick {
+  margin: 5px;
+}
+.tick > img {
+  width: 50px;
+}
+
+.big {
+  width: 92%;
+  height: 600px;
+  display: flex;
+
+  margin-top: 10px;
+}
+
+.one {
+  width: 60%;
+  height: 600px;
+}
+
+.two {
+  width: 40%;
+  height: 400px;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+
+.one1 {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+
+.one2 {
+  width: 100%;
+  height: 430px;
+  background-color: #ffffff;
+}
+
+.lock {
+  display: flex;
+}
+.lock > div:nth-child(1) {
+  font-size: 24px;
+
+  margin: 15px;
+  margin-top: 25px;
+}
+
+.Firstnme {
+  width: 20%;
+  height: 80px;
+}
+
+.flex1 {
+  display: flex;
+  margin-left: 50px;
+}
+
+.margintop {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.flex2 {
+  display: flex;
+  margin-left: 50px;
+}
+
+.margintop1 {
+  margin-top: 22px;
+  margin-left: 10px;
+}
+
+.inputbox {
+  width: 80%;
+  height: 290px;
+  margin: auto;
+  background-color: #ffffff;
+}
+.inputbox > form {
+  margin-left: -80px;
+}
+
+.firstname {
+  width: 430px;
+  height: 80px;
+  margin-top: 5px;
+  margin-left: 60px;
+  display: flex;
+}
+
+.inp {
+  height: 30px;
+}
+.trav {
+  display: flex;
+  flex-direction: column;
+}
+#select {
+  height: 30px;
+  width: 170px;
+}
+#selectTag {
+  display: flex;
+  flex-direction: column;
+}
+.tag {
+  height: 30px;
+  width: 170px;
+}
+#flex_box {
+  display: flex;
+  flex-direction: column;
+}
+.tag {
+  width: 80px;
+}
+#tag_input {
+  height: 25px;
+  width: 300px;
+}
+.checkf {
+  display: flex;
+}
+.image1 {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+}
+.image2 {
+  width: 80%;
+  height: 200px;
+}
+.imagedowntext {
+  width: 85%;
+  height: 200px;
+  margin: auto;
+}
+.big2 {
+  width: 92%;
+  height: 700px;
+  display: flex;
+}
+.protect {
+  width: 60%;
+  height: 700px;
+  background-color: #ffffff;
+}
+.pricedetails {
+  width: 40%;
+  height: 400px;
+  background-color: #ffffff;
+  margin-left: 10px;
+}
+.flex3 {
+  display: flex;
+  width: 600px;
+  height: 100px;
+}
+.imgp {
+  width: 30px;
+  height: 20px;
+  margin-top: 30px;
+}
+.recom {
+  width: 120px;
+  height: 20px;
+  margin-top: 30px;
+  background-color: green;
+  color: aliceblue;
+}
+.proclass {
+  width: 210px;
+  height: 100px;
+  margin-left: 10px;
+}
+.imp {
+  width: 92%;
+  height: 100px;
+  margin-left: 10px;
+}
+.note {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+}
+.anchor {
+  font-size: 10px;
+}
+.box1 {
+  width: 90%;
+  height: 70px;
+  display: flex;
+  background-color: rgba(177, 247, 223, 0.61);
+}
+.price {
+  margin-left: 55px;
+}
+.box2 {
+  width: 90%;
+  height: 70px;
+  margin-top: 5px;
+}
+.radio {
+  margin-top: 10px;
+}
+.price1 {
+  margin-left: 25px;
+}
+.flex4 {
+  display: flex;
+}
+.p317 {
+  margin-left: 250px;
+}
+.room1 {
+  margin-left: 25px;
+}
+.flex5 {
+  display: flex;
+}
+.total {
+  display: flex;
+  justify-content: space-around;
+}
+.p20 {
+  margin-left: 140px;
+}
+.debit {
+  width: 54.5%;
+  height: 300px;
+  margin-top: 10px;
+  background-color: #ffffff;
+  padding-left: 25px;
+}
+.details {
+  margin-left: 10px;
+}
+.cards {
+  width: 300px;
+  height: 30px;
+  display: flex;
+}
+.pic {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+.pic1 {
+  width: 30px;
+  height: 30px;
+}
+#cardinput {
+  display: flex;
+  flex-direction: column;
+}
+.small {
+  width: 250px;
+  height: 25px;
+}
+.mon {
+  width: 100px;
+  height: 40px;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 54.5%;
+  margin-top: 10px;
+  padding-left: 25px;
+}
+.email > h2 {
+  border-top: 1px solid grey;
+  margin-top: -15px;
+}
+/* #para{
+    overflow: scroll;
+} */
+#down {
+  width: 50%;
+  height: 240px;
+  background-color: #ffffff;
+}
+#unorder {
+  overflow: scroll;
+  height: 200px;
+}
+.danger {
+  background-color: #d42e5a;
+  color: white;
+}
