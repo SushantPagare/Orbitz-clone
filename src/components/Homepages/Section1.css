@@ -37,10 +37,16 @@
 .input-box > select {
   width: 450px;
   height: 50px;
+  cursor: pointer;
+}
+.input-option {
+  color: black;
+  background-color: #ffffff;
 }
 .input-box > input {
   width: 220px;
   height: 45px;
+  cursor: pointer;
 }
 .input-box {
   width: 100%;
@@ -50,23 +56,27 @@
   flex-wrap: wrap;
   justify-content: space-around;
   border: 1px solid transparent;
+  cursor: pointer;
 }
 .input-checkbox {
   width: 100%;
   display: flex;
   gap: 50px;
   padding: 20px;
+  cursor: pointer;
   border: 1px solid transparent;
 }
 .input > div {
   display: flex;
   align-items: center;
   margin-left: 10px;
+  cursor: pointer;
 }
 .input-checkbox > div > input {
   width: 18px;
   height: 18px;
   padding: 10px;
+  cursor: pointer;
 }
 .search-button {
   width: 100%;
@@ -76,12 +86,14 @@
   align-items: center;
   padding: 20px;
   padding-bottom: 50px;
+  cursor: pointer;
 }
 .searchbtn {
   width: 200px;
   height: 50px;
-  background-color: #d42e5a;
+  background-color: #c83259;
   color: white;
+  
   cursor: pointer;
 }
 
@@ -89,21 +101,25 @@
   .input-box > select {
     width: 650px;
     height: 50px;
+    cursor: pointer;
   }
   .input-box > input {
     width: 300px;
     height: 45px;
     margin-bottom: 5px;
     margin-top: 5px;
+    cursor: pointer;
   }
   .searchbtn {
     width: 180px;
     height: 40px;
+    cursor: pointer;
   }
   .input-checkbox > div > input {
     width: 15px;
     height: 15px;
     padding: 10px;
+    cursor: pointer;
   }
 }
 
@@ -131,6 +147,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
   }
   .search-nav > div {
     color: rgb(114, 114, 114);
@@ -147,10 +164,12 @@
   .input-box > select {
     width: 400px;
     height: 40px;
+    cursor: pointer;
   }
   .input-box > input {
     width: 170px;
     height: 40px;
+    cursor: pointer;
   }
   .input-box {
     width: 100%;
@@ -158,6 +177,7 @@
     margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
+    cursor: pointer;
     justify-content: space-around;
     border: 1px solid transparent;
   }
@@ -167,16 +187,19 @@
     gap: 50px;
     padding: 20px;
     border: 1px solid transparent;
+    cursor: pointer;
   }
   .input > div {
     display: flex;
     align-items: center;
+    cursor: pointer;
     margin-left: 10px;
   }
   .input-checkbox > div > input {
     width: 12px;
     height: 12px;
     padding: 12px;
+    cursor: pointer;
   }
   .search-button {
     width: 100%;
@@ -185,10 +208,12 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+    cursor: pointer;
     padding-bottom: 50px;
   }
   .searchbtn {
     width: 180px;
     height: 40px;
+    cursor: pointer;
   }
 }

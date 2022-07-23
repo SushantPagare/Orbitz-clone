@@ -4,16 +4,19 @@
   width: 75%;
   margin-left: 100px;
   padding-top: 30px;
+  cursor: pointer;
 }
 .filters {
   width: 25%;
   text-align: left;
+
 }
 .map {
   background-color: white;
   padding-bottom: 15px;
   margin-bottom: 20px;
   text-align: center;
+  cursor: pointer;
 }
 #a {
   color: #007e8f;
@@ -36,6 +39,7 @@
 .sortdiv {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 .sortdiv-1 {
   text-align: left;
@@ -46,6 +50,7 @@
   width: 300px;
   background-color: #fff;
   position: relative;
+  cursor: pointer;
 }
 .label {
   font-size: 14px;
@@ -53,6 +58,7 @@
   padding: 0 4px;
   position: absolute;
   top: 4px;
+  cursor: pointer;
 }
 .select {
   background-color: #fff;
@@ -62,28 +68,34 @@
   font-size: 18px;
   margin-top: 15px;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 .icon {
   position: absolute;
   padding: 10px;
   min-width: 40px;
+  cursor: pointer;
 }
 .input-icon {
   width: 85%;
   margin-bottom: 20px;
   margin-left: 10px;
+  cursor: pointer;
 }
 .input-icon > input {
   width: 100%;
   padding: 10px;
   text-align: center;
   font-size: 18px;
+  cursor: pointer;
 }
 .search-h2 {
   font-size: 22px;
+  cursor: pointer;
 }
 .popular {
   font-size: 18px;
+  cursor: pointer;
 }
 .popular > h4 {
   margin-bottom: 10px;
@@ -97,11 +109,12 @@
 }
 .star {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-columns: repeat(1, 4fr);
+  gap: 5px;
+  cursor: pointer;
 }
 .star > div {
-  border: 1px solid rgb(179, 179, 179);
+  /* border: 1px solid rgb(179, 179, 179); */
   padding: 12px;
   padding-left: 18px;
   border-radius: 12px;

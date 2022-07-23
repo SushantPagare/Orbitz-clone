@@ -16,7 +16,7 @@ export const Section1 = () => {
         <div className="input-container">
           <div className="input-box">
             <select style={{ fontSize: "22px" }}>
-              <option>Location</option>
+              <option className="input-option">Location</option>
               <option value="bangaloe">Bangalore</option>
               <option value="delhi">Delhi</option>
               <option value="mumbai">Mumbai</option>
