@@ -1,7 +1,7 @@
 # 🏨 Orbitz - clone
 
 This project is a clone of [orbitz.com](https://www.orbitz.com/), which is a  is a travel fare aggregator website.
-This is individual project, completed within 6 days with a team of 4 members, as a part of 'Construct-week' project at Masai School. This website have end to end functionalities from SignUp/LogIn and searching the hotel rooms to booking and payment. 
+This is individual project, completed within 6 days, as a part of 'Construct-week' project at Masai School. This website have end to end functionalities from SignUp/LogIn and searching the hotel rooms to booking and payment. 
 
 
 ## Deployed link
