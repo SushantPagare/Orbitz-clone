@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# 🏨 Orbitz - clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a clone of [orbitz.com](https://www.orbitz.com/), which is a  is a travel fare aggregator website.
+This is collaborative project, completed within 6 days with a team of 4 members, as a part of 'Construct-week' project at Masai School. This website have end to end functionalities from SignUp/LogIn and searching the hotel rooms to booking and payment. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Deployed link
 
-### `npm start`
+[orbitz.netlify.app](https://orbitz-travel.netlify.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Authors
 
-### `npm test`
+- [@SushantPagare](https://github.com/SushantPagare/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  
+## Features
 
-### `npm run build`
+- SignUp/LogIn
+- Google SignUp
+- Hotel search (based on the city)
+- Sorting and Filtering
+- Map
+- Room Booking
+- Payment (through stripe gateway)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  
+   
+## Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Install this project with npm
 
-### `npm run eject`
+```bash
+  mpn Install
+  npm run start
+```
+    
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![orbitz1](https://user-images.githubusercontent.com/81069961/133473001-31483b43-8066-49f2-b724-ec7ab90ca5f3.png)
+  
+![orbitz2](https://user-images.githubusercontent.com/81069961/133473025-abd16249-2fb4-4154-a87d-a9642836eaa7.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![orbitz3](https://user-images.githubusercontent.com/81069961/133473089-f210be53-3f57-4ddd-abab-dbc5739f1c54.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![orbitz4](https://user-images.githubusercontent.com/81069961/133473143-e5590bca-ebf7-4b82-a3c2-2bfe25d781b0.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![orbitz5](https://user-images.githubusercontent.com/81069961/133473147-c5573ecd-df68-492f-a8f4-305222dad5d1.png)
 
-## Learn More
+![orbitz6](https://user-images.githubusercontent.com/81069961/133473198-11c31b92-bf07-474f-b140-ccde5b88370d.png)
+  
+## Tech Stack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Client:** React, Redux, Materia UI
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Server:** json file hosted on heroku
 
-### Code Splitting
+**External Libraries used:** 
+- redux
+- react-redux
+- material-ui
+- axios
+- json-server
+- react-stripe-checkout
+- react-google-login
+- react-loading
+- toastify
+- thunk
+- styled-components
+- uuid
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+  
+## Acknowledgements
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - Images ang logos are taken from [Orbitz.com](https://orbitz.com)
+ - hosted link[https://orbitz-travel.netlify.app](https://orbitz-travel.netlify.app)
